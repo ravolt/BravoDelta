@@ -1,0 +1,19 @@
+BravoDelta
+
+Erlang language BDD framework designed to use Cucumber like syntax
+
+Designed by Rob Hirschfeld (robhirschfeld.com), Sept, 2010
+
+Documentation to be posted on robhirschfeld.com
+
+Same scenario file designed to work with RoR code in http://github.com/ravolt/WhatTheBus code base.
+
+Files:
+   * bdd.erl (main code file, start using bdd:test("scenario").)
+   * bdd.config (config file)
+   * bdd_webrat.erl (standard steps that are used by many web page tests)
+   * bravodelta.erl (same custom steps, must match feature)
+   * bdd_utils.erl (utilities called by bdd & webrat)
+   * bdd_selftest.erl (unit tests for utils)
+   * bdd_selftest.data (data for unit tests)
+   
